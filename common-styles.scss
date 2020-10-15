@@ -1,0 +1,53 @@
+<<<<<<< HEAD
+=======
+.text-input-div{
+    margin: auto;
+    & input{
+        background-color: bisque;
+    }
+}
+
+.page{
+    height: 100vh;
+}
+
+.box-size-1{
+    box-sizing: border-box;
+    border: 2px lightblue solid;
+    border-radius: 10px;
+    height: 25rem;
+    width: 30rem;
+    background-color: beige;
+    padding: 0;
+    margin: auto;
+}
+
+.box-size-2{
+    border: 2px lightskyblue solid;
+    border-radius: 10px;
+    background-color: beige;
+    height: 25rem;
+    width: 15rem;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.stretch-child{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.button-in-list{
+    border-radius: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    &:focus{
+        outline: 0;
+    }
+}
+>>>>>>> b8d33ee699c8dd1033713f1d7b7fafb9e5406120
