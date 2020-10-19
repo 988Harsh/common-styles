@@ -1,14 +1,14 @@
-.text-input-div{
-    & input{
+.text-input-div {
+    & input {
         background-color: lightgray;
     }
 }
 
-.page{
+.page {
     height: 100vh;
 }
 
-.box-size-1{
+.box-size-1 {
     box-sizing: border-box;
     border: 2px lightblue solid;
     border-radius: 10px;
@@ -19,7 +19,7 @@
     margin: auto;
 }
 
-.box-size-2{
+.box-size-2 {
     border: 2px lightskyblue solid;
     border-radius: 10px;
     background-color: beige;
@@ -30,7 +30,7 @@
     margin: auto;
 }
 
-.stretch-child{
+.stretch-child {
     position: absolute;
     opacity: 0;
     width: 100%;
@@ -39,12 +39,12 @@
     left: 0;
 }
 
-.button-in-list{
+.button-in-list {
     border-radius: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    &:focus{
+    &:focus {
         outline: 0;
     }
 }
